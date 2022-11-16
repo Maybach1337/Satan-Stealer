@@ -6,7 +6,7 @@
 </p>
 
 <p> if you got error add me Maybach#1337 </p>
-<p> discrd.gg/now for more info </p>
+<p> discord.gg/now for more info </p>
 
 
 
