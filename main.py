@@ -15,12 +15,12 @@ import random
 import re
 import subprocess
 
-#
-#
-#
-#REPLACE WITH YOUR WEBHOOK
 
-hook = "WEBHOOK_HERE"
+
+#REPLACE YOUR WEBHOOK
+
+
+hook = "REPLACE_ME"
 DETECTED = False
 
 
