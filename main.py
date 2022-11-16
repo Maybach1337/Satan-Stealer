@@ -18,9 +18,9 @@ import subprocess
 #
 #
 #
+#REPLACE WITH YOUR WEBHOOK
 
-
-hook = "REPLACE_ME"
+hook = "WEBHOOK_HERE"
 DETECTED = False
 
 
