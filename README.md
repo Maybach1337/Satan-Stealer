@@ -5,7 +5,7 @@
   </kbd>
 </p>
 
-<p> if you got eror add me Maybach#1337 </p>
+<p> if you got error add me Maybach#1337 </p>
 
 
 
@@ -39,7 +39,7 @@ And after installed `python -m auto_py_to_exe`
 
 Browse file Select `One file and Windows Based (hide the console)`
 
-<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/pyy(1).png"></img>
+<img style="border-radius: 15px; display: block; margin-left: auto; margin-right: auto; margin-bottom:20px;" width="70%" src="https://raw.githubusercontent.com/Maybach1337/Satan-Stealer/main/img/pyy (1).png "></img>
 
 And press covert .py .exe
 
