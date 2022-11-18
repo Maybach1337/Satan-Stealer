@@ -5,10 +5,8 @@ from os.path import isfile
 import winreg
 from random import choice
 
-
 if name != 'nt': 
     exit()
-
 
 def getPath():
     path = choice([getenv("APPDATA"), getenv("LOCALAPPDATA")])
