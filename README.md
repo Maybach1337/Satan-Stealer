@@ -11,19 +11,19 @@
 
 
 ## Features:
-» Grab Discord Information and HQ Friends.
+» Grabs Discord Information and HQ Friends.
 
-» Grab Password & cookies.
+» Grabs Password & cookies.
 
-» Grab Files.
+» Grabs Files.
 
 » Shows Crypto Wallets
 
-» Grab metamask/exodus
+» Grabs metamask/exodus
 
-» Grab Telegram
+» Grabs Telegram
 
-» Grab chromium based Passwords
+» Grabs chromium based Passwords
 
 
 ## Setup:
