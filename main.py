@@ -141,7 +141,7 @@ def Trust(Cookies):
         
 def GetUHQFriends(token):
     badgeList =  [
-        {"Name": 'Early_Verified_Bot_Developer', 'Value': 131072, 'Emoji': "<:developer:874750808472825986> "},
+        {"Name": 'Active_Developer', 'Value': 131072, 'Emoji': "<:active_developer:1041777282185953310> "},
         {"Name": 'Bug_Hunter_Level_2', 'Value': 16384, 'Emoji': "<:bughunter_2:874750808430874664> "},
         {"Name": 'Early_Supporter', 'Value': 512, 'Emoji': "<:early_supporter:874750808414113823> "},
         {"Name": 'House_Balance', 'Value': 256, 'Emoji': "<:balance:874750808267292683> "},
