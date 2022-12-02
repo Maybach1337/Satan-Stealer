@@ -5,7 +5,7 @@
   </kbd>
 </p>
 
-<p> if you got error add me Maybach#1337 </p>
+<p> if you got error add me Maybach-#1337 </p>
 <p> discord.gg/ZFvAgzn6BR for more info </p>
 
 
