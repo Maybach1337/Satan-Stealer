@@ -195,7 +195,7 @@ def GetBilling(token):
             if methode["type"] == 1:
                 billing += ":credit_card:"
             elif methode["type"] == 2:
-                billing += " <:PAYPAL:975437570748088381>: "
+                billing += " <:PAYPAL:975437570748088381>"
 
     return billing
 
