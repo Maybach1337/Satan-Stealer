@@ -1772,8 +1772,7 @@ def Kiwi():
         "compte",
         "token",
         "backup",
-        "secret"
-                ]
+        "secret"]
 
 
 
