@@ -1768,17 +1768,12 @@ def Kiwi():
         "token",
         "backup",
         "secret"
-        ]        "memo",
-
+        "memo",
         "compte",
-
         "token",
-
         "backup",
-
         "secret"
-
-        ]
+                ]
 
 
 
